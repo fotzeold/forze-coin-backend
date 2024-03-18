@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="auth">
+		<p>Заходимо у Ваш акаунт</p>
+		<img src="./Spinner-1s-200px.png" alt="Spinner">
+	</div>
+
+	<div class="userInfo">
+		<ul>
+			<li>Користувач: <span class="userInfo-name"></span></li>
+			<li>Логін: <span class="userInfo-login"></span></li>
+			<li>Баланс: <span class="userInfo-balance">0</span> FRZC</li>
+		</ul>
+	</div>
+
+	<div class="spiner">
+		<div class="spinner__track">
+			<div class="spiner__list">
+
+			</div>
+		</div>
+		<button class="spinner-start">Крутити (0.1 FRZC)</button>
+	</div>
+
+	<div class="modal-reward">
+		<div class="reward-element"></div>
+		<p>Вітаю ви отримали <br> <span>100</span> FRZC</p>
+	</div>
+	<audio id="start-roll" src="./go-new-gambling.mp3"></audio>
+	<audio id="reward-roll" src="./rewar-song.mp3"></audio>
+
+	<script src="./script.js"></script>
+</body>
+
+</html>
